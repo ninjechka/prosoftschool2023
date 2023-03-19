@@ -1,4 +1,3 @@
-#include <cmath>
 #include "OtherComparisonOperators.h"
 
 class NewA : public OtherComparisonOperators<NewA>
@@ -40,7 +39,7 @@ public:
         return static_cast<const double>(m_a) > other;
     }
 
-    // Операторы сравнения с string
+    // Операторы сравнения с char
     bool operator<(const char other) const
     {
         return m_a < static_cast<int>(other);

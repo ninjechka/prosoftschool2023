@@ -1,5 +1,13 @@
-//
-// Created by user on 18.03.2023.
-//
+#include <iostream>
+#include "tests.h"
 
-#include "main.h"
+int main()
+{
+    compareNewA();
+    compareNewAInt();
+    compareNewADouble();
+    compareNewAChar();
+    compareNewB();
+    compareNewBString();
+    return 0;
+}

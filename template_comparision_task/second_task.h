@@ -18,7 +18,7 @@ public:
     std::enable_if_t<any_of_v<OtherT, A, B>, bool> 
     operator<(const OtherT& other) const
     {
-        return (m_a < other.m_a) && (m_b < other.m_b);
+        return (m_a < other.value) && (m_b < other.m_b);
     }
 
     template <typename OtherT>
