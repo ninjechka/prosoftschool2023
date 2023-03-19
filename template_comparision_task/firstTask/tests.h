@@ -29,5 +29,9 @@ void compareNewB();
  */
 void compareNewBString();
 
+/*!
+ * \brief Сравнение типа A и B для задачи 2
+ */
+void compareAB();
 
 #endif //PROSOFTSCHOOL2023_TESTS_H

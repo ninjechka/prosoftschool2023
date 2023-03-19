@@ -3,6 +3,7 @@
 #include "tests.h"
 #include "NewA.h"
 #include "NewB.h"
+#include "second_task.h"
 
 void compareNewA()
 {
@@ -119,5 +120,16 @@ void compareNewBString()
     assert(b2 != str1);
 
     std::cout << "Compare NewB with string: OK" << std::endl;
+}
+
+void compareAB()
+{
+    A a(1, 2);
+    B b(3, 5);
+    assert(!(a >= b));
+    assert(a <= b);
+    assert(!(a == b));
+    assert(a != b);
+    std::cout << "Compare A with B: OK" << std::endl;
 }
 

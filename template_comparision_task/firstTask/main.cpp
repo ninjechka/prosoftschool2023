@@ -1,5 +1,5 @@
-#include <iostream>
 #include "tests.h"
+#include "second_task.h"
 
 int main()
 {
@@ -9,5 +9,6 @@ int main()
     compareNewAChar();
     compareNewB();
     compareNewBString();
+    compareAB();
     return 0;
 }
